@@ -1,0 +1,629 @@
+html body {
+  margin: 0px;
+  padding: 0px;
+
+  font-family: "Poppins", sans-serif;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover{
+  color: inherit;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+
+
+.scrolimg{
+  width: 70px;
+  height:70px;
+
+  
+  
+}
+.scroll{
+  width: 100px;
+  height: 80px;
+  transition: 0.3s;
+  z-index: 1;
+  position:fixed;
+  bottom:10px;
+  right:0px;
+  
+}
+
+
+
+
+.hero {
+  padding-top: 200px;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 77, 130, 0.582) 20%,
+      #17257388 80%
+    ),
+    url(assets/fondo.jpg);
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+
+  display: flex;
+  justify-content: center;
+
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.textoPrincipal {
+  color: #fff;
+  font-size: 50px;
+  font-family: "Racing Sans One", cursive;
+  font-weight: 700;
+}
+
+.textoSecundario {
+  font-size: 30px;
+  font-style: italic;
+  color: #fff;
+}
+
+.botonLlamar {
+  border: none;
+  border-radius: 50px;
+  background-color: #8cbf3f;
+  width: 300px;
+}
+
+.botonLlamar:hover {
+  background-color: #fff;
+  color: #172573;
+}
+
+.curvas {
+}
+
+.especialidadestxt {
+  text-align: center;
+  color: #172573;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.seccionEspecialidades {
+  text-align: center;
+}
+
+.lineaazul {
+  width: 30%;
+}
+
+.areaservicios {
+  display: flex;
+  justify-content: center !important;
+}
+
+.cardService {
+  border-radius: 20px;
+  height: 250px;
+  background-color: #fff;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  -webkit-box-shadow: 5px 8px 19px 5px rgba(140, 140, 140, 0.46);
+  box-shadow: 5px 8px 19px 5px rgba(140, 140, 140, 0.46);
+}
+
+.cardService > h2 {
+  font-size: 24px;
+}
+
+.cardService > img {
+  margin: 5px;
+}
+
+/**Card inventario**/
+
+.cardInventario {
+  border-radius: 20px;
+  height: auto;
+  background-color: #fff;
+  width: 300px;
+  padding: 25px;
+  -webkit-box-shadow: 5px 8px 19px 5px rgba(39, 39, 39, 0.46);
+  box-shadow: 5px 8px 19px 5px rgba(53, 53, 53, 0.46);
+}
+
+.cardInventario > h2 {
+  font-size: 24px;
+}
+
+.cardInventario > img {
+  margin: 5px;
+}
+
+.btnCotizacion {
+  border: none;
+  border-radius: 50px;
+  background-color: #172573;
+  width: 300px;
+  height: 50px;
+  -webkit-box-shadow: 0px 26px 18px 0px rgba(4, 14, 106, 0.18);
+  -moz-box-shadow: 0px 26px 18px 0px rgba(4, 14, 106, 0.18);
+  box-shadow: 0px 26px 18px 0px rgba(4, 14, 106, 0.18);
+}
+
+.btnCotizacion:hover {
+  background-color: #fff;
+  color: #172573;
+  -webkit-box-shadow: 5px 8px 19px 5px rgba(140, 140, 140, 0.46);
+  box-shadow: 5px 8px 19px 5px rgba(140, 140, 140, 0.46);
+}
+
+.seccionProductos {
+  background-color: #8cbf3f;
+  margin: 0px !important;
+}
+
+.seccionIndustrial {
+  background-color: #172573;
+  margin: 0px !important;
+}
+
+.listadoServicios {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.listadoInventario {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+}
+.listadoInventario2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.nameService {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.textoServicioAlimenticio {
+  color: #fff;
+  font-weight: 700px;
+  font-size: 30px;
+}
+
+.imagenServicio {
+  width: 50%;
+}
+
+.seccionImagen {
+  display: flex !important;
+  flex-direction: row-reverse;
+}
+
+.seccionImagen > img {
+  width: 50%;
+}
+
+.asesoriaTxt {
+  font-size: 40px;
+  color: #333333;
+}
+
+.servicioAsesoria {
+  text-align: center;
+}
+
+.servicioInventario {
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 77, 130, 0.582) 20%,
+      #17257388 80%
+    ),
+    url(assets/bgInventario.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.servicioInventario2 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 77, 130, 0.582) 20%,
+      #17257388 80%
+    ),
+    url(assets/working.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tituloServicio {
+  color: #172573;
+  margin: 10px;
+  font-size: 20px !important;
+}
+
+.serviceDescription {
+  margin: 10px;
+}
+
+.txtSubmenu {
+  color: #96d437;
+  font-size: 22px;
+  margin: 2rem;
+  font-weight: 600;
+}
+
+.iconLowDemand {
+  width: auto;
+}
+
+.productosIcon {
+  width: 70%;
+}
+
+/**Card seccion valores **/
+.misionvision {
+  border-radius: 20px !important;
+
+  width: 500px;
+  -webkit-box-shadow: 0px 30px 23px 12px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 30px 23px 12px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 30px 23px 12px rgba(0, 0, 0, 0.11);
+}
+
+.seccionValores {
+  display: flex;
+  margin: 20px;
+  align-content: center;
+  justify-content: center;
+}
+
+.justifyRight {
+  text-align: center;
+}
+
+.valoresIcon {
+  width: 50%;
+}
+
+.valorDescription {
+  font-size: 14px;
+  margin: 15px;
+}
+
+.politica {
+  padding: 30px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000523;
+}
+
+.politicatitulo {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.politicaDescription {
+  width: 600px;
+  margin-top: 20px;
+  line-height: 40px;
+}
+
+.manosIcon {
+  width: 70%;
+}
+
+.tituloForm {
+  font-size: 24px;
+  font-weight: 600;
+
+  text-align: center;
+  color: #172573;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.seccionContacto {
+  margin: 40px;
+  width: 600px;
+}
+
+.coolinput {
+  border: none;
+  border-radius: 50px;
+  background-color: #f6f6f6;
+}
+
+.btnEnviar {
+  background-color: #96d437;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 19px;
+  border: 0px;
+
+  -webkit-box-shadow: 0px 22px 23px -7px rgba(149, 212, 55, 0.25);
+  -moz-box-shadow: 0px 22px 23px -7px rgba(149, 212, 55, 0.25);
+  box-shadow: 0px 22px 23px -7px rgba(149, 212, 55, 0.25);
+}
+
+.btnEnviar:hover {
+  background-color: #518700;
+}
+
+.iconosContacto {
+  width: 70px !important;
+}
+
+.mapa {
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 22px 23px -7px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 0px 22px 23px -7px rgba(0, 0, 0, 0.27);
+  box-shadow: 0px 22px 23px -7px rgba(0, 0, 0, 0.27);
+}
+
+/*Footer*/
+
+.footerpage {
+  color: #fff;
+  padding: 20px;
+  background-color: #172573;
+}
+
+.logoFooter {
+  width: 70%;
+}
+
+.tituloFooter {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.navcentrado{
+  
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.containerNav{
+  
+  width: 100%;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  padding: 20px;
+}
+
+.textoFooter {
+  font-size: 13px;
+}
+
+.firmaSection {
+  display: flex;
+
+  font-size: 13px;
+  align-items: center !important;
+  justify-content: center;
+  height: 50px;
+  background-color: #041158;
+}
+
+.productDescription {
+  font-size: 22px;
+  color: #3a3a3a;
+}
+
+.containerService {
+  padding: 30px;
+}
+
+.firma {
+  font-size: 13px;
+  color: #fff;
+}
+
+.spanFirma {
+  background: -webkit-linear-gradient(45deg, #ff00d3, #00e0d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#segundoNav{
+  display: none;
+}
+
+#valoresMovil {
+  display: none;
+}
+
+#serviciosMovil {
+  display: none;
+}
+
+#footerMovil {
+  display: none;
+}
+
+/*Responsivo*/
+
+@media only screen and (max-width: 1000px) {
+
+  #segundoNav{
+    display: flex;
+  }
+
+  #serviciosMovil {
+    display: flex;
+  }
+  #valoresMovil {
+    display: flex;
+  }
+  .textoPrincipal .especialidadestxt {
+    font-size: 35px;
+  }
+
+  .especialidadestxt {
+    font-size: 35px;
+  }
+  .areaservicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btnCotizacion {
+    width: 250px !important;
+  }
+
+  .nameService {
+    font-size: 30px;
+  }
+  .textoServicioAlimenticio {
+    font-size: 18px;
+  }
+
+  .imgService {
+    height: 180px;
+    width: 130px !important;
+  }
+
+  .seccionImagen {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  #serviciosDesktop {
+    display: none;
+  }
+
+  .producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .producto > img {
+    width: 40%;
+  }
+
+  .politicaDescription {
+    width: auto;
+  }
+
+  .seccionContacto {
+    width: 300px;
+  }
+
+  #valoresDesktop {
+    display: none;
+  }
+
+  .productosIcon {
+    width: 50% !important;
+  }
+
+  .mapa {
+    width: 300px;
+  }
+
+  .iconLowDemand {
+    width: 40%;
+  }
+
+  .iconosContacto {
+    width: 10% !important;
+  }
+
+  #footerMovil {
+    display: block;
+  }
+
+  #footerDesktop {
+    display: none;
+  }
+
+  .logoFooterMovil {
+    width: 60%;
+    margin: 20px;
+  }
+
+  .firma {
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+
+  .firmaSection {
+    height: auto !important;
+    padding: 20px;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  .servicioCard {
+    border-radius: 20px;
+    padding: 1em;
+    text-align: center;
+    -webkit-box-shadow: 0px 26px 51px -18px rgba(4,14,106,0.12);
+    -moz-box-shadow: 0px 26px 51px -18px rgba(4,14,106,0.12);
+    box-shadow: 0px 26px 51px -18px rgba(4,14,106,0.12);
+  }
+  .servicioCard > img {
+    width: 40px;
+  }
+  .servicioCard > h2 {
+    font-size: 15px;
+  }
+
+  .servicioCard:hover {
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    -webkit-box-shadow: 0px 26px 18px 0px rgba(4, 14, 106, 0.18);
+    -moz-box-shadow: 0px 26px 18px 0px rgba(4, 14, 106, 0.18);
+    box-shadow: 0px 26px 18px 0px rgba(4, 14, 106, 0.18);
+  }
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.grid > div {
+  background: #fff;
+  justify-content: center;
+}

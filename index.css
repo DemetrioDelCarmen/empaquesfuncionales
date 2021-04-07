@@ -459,6 +459,11 @@ ul {
   -webkit-text-fill-color: transparent;
 }
 
+
+#productosMobile{
+  display: none;
+}
+
 #segundoNav{
   display: none;
 }
@@ -479,6 +484,13 @@ ul {
 
 @media only screen and (max-width: 1000px) {
 
+  #productosMobile{
+    display: block;
+  }
+
+  #productosDesktop{
+    display: none;
+  }
   #segundoNav{
     display: flex;
   }

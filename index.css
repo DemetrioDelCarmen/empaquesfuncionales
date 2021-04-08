@@ -172,6 +172,10 @@ ul {
 .btnCotizacion {
   border: none;
   border-radius: 50px;
+
+  text-align: center;
+  font-weight: 700;
+  padding-top: 12px;
   background-color: #172573;
   width: 300px;
   height: 50px;
@@ -394,7 +398,7 @@ ul {
 }
 
 .iconosContacto {
-  width: 70px !important;
+  width: 65px !important;
 }
 
 .mapa {
@@ -529,6 +533,9 @@ ul {
     align-items: center;
   }
   .btnCotizacion {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 12px;
     width: 250px !important;
   }
 
@@ -588,7 +595,7 @@ ul {
   }
 
   .iconosContacto {
-    width: 10% !important;
+    width: 7% !important;
   }
 
   #footerMovil {

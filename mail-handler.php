@@ -7,7 +7,7 @@
         $mensaje=$_POST['mensaje'];
         
 
-		$to='desarrollalab@gmail.com'; // Receiver Email ID, Replace with your email ID
+		$to='ventas@empaquesfuncionales.com'; // Receiver Email ID, Replace with your email ID
 		$subject='Desde empaquesfuncionales.com';
 		$message="Nombre :".$nombreCliente."\n"."Teléfono del cliente :".$telefonoCliente."\n"."Correo del cliente :".$correoCliente."\n"."Servicio de interés :".$servicio."\n"."Ha escrito lo siguiente :"."\n\n".$mensaje;
 		$headers="De: ".$correoCliente;

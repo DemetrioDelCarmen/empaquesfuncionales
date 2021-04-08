@@ -1,15 +1,8 @@
 const colocarNombreServicio = (str)=>{
-
     let servicioName = document.getElementById('servicioName');
     servicioName.value = str
-    
-
 }
-
-
-
 document.addEventListener('scroll',(e)=>{
-  
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     if(scrollTop > 100) document.querySelector('.scroll').style.display = "block";
     else document.querySelector('.scroll').style.display = "none"

@@ -26,6 +26,14 @@ ul {
 
 
 
+/*Remove from dom*/
+
+.hide {
+  display: none;
+}
+
+
+
 .scrolimg{
   width: 70px;
   height:70px;
@@ -138,6 +146,8 @@ ul {
   margin: 5px;
 }
 
+
+
 /**Card inventario**/
 
 .cardInventario {
@@ -145,6 +155,7 @@ ul {
   height: auto;
   background-color: #fff;
   width: 300px;
+  text-align: center;
   padding: 25px;
   -webkit-box-shadow: 5px 8px 19px 5px rgba(39, 39, 39, 0.46);
   box-shadow: 5px 8px 19px 5px rgba(53, 53, 53, 0.46);
@@ -459,6 +470,10 @@ ul {
   -webkit-text-fill-color: transparent;
 }
 
+
+#navbar{
+  background: #fff !important;
+}
 
 #productosMobile{
   display: none;
